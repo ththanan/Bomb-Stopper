@@ -168,7 +168,6 @@ def rank():
         clock.tick(60)
 
 def gameover():
-    ranking()
     user_ip = ''
     text_box = pygame.Rect((screen_width/2 - 350/2, screen_height/2 - 20), (350, 50))
     active = False

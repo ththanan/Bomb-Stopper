@@ -40,3 +40,4 @@ yyy, 70
 tan, 370
 TANTHAM sophonsa, 6000
 rb000, 400
+testtt, 20
