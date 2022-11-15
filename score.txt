@@ -38,6 +38,8 @@ heeeelloo, 370
 rainbow, 3810
 yyy, 70
 tan, 370
-TANTHAM sophonsa, 6000
+TANTHAM, 6000
 rb000, 400
 testtt, 20
+1234, 180
+testname11111111, 40

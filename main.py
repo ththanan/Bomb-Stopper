@@ -38,7 +38,7 @@ def ranking():
             scores.sort(key=lambda s: s[1])
             scores.reverse()
             for num in range(0, 5):
-                rankscores.insert(num,scores[num])
+                rankscores.insert(num, scores[num])
             file.flush()
             show = 1
 
@@ -121,7 +121,7 @@ def game():
 
         if gamestatus == 1:
             gamerun.run()
-            gamestatus = gamerun.player_stutus
+            gamestatus = gamerun.player_status
         if gamestatus == 0:
             gameover()
 

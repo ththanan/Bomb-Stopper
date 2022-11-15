@@ -27,7 +27,7 @@ class Gamerun():
         #player
         player_sprite = Player(self.screen_width, self.screen_height)
         self.player = pygame.sprite.GroupSingle(player_sprite)
-        self.player_stutus = 1
+        self.player_status = 1
 
         #player's live
         self.life = pygame.Surface((7, 10))
@@ -108,7 +108,7 @@ class Gamerun():
         if self.player_life <= 0: self.gameisover()
 
     def display_life(self):
-        if self.player_stutus == 1:
+        if self.player_status == 1:
             self.screen.blit(self.life_bg, (self.player.sprite.rect.x, self.player.sprite.rect.y - 15))
             for each_life in range(self.player_life):
                 x = self.player.sprite.rect.x + (each_life * (self.life.get_size()[0]))
@@ -344,7 +344,7 @@ class Gamerun():
 
     #gameover
     def gameisover(self):
-        self.player_stutus = 0
+        self.player_status = 0
 
     def run(self):
         self.screen.blit(self.bg_image, (0,0))
