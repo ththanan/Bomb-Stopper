@@ -13,3 +13,4 @@ def ranking():
             rankscores.append(scores[num])
         file.flush()
 ranking()
+#15 line

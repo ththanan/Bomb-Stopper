@@ -43,3 +43,4 @@ rb000, 400
 testtt, 20
 1234, 180
 testname11111111, 40
+New Recordkiller, 40

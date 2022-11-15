@@ -6,6 +6,8 @@ screen_width = 1280
 screen_height = 720
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Bomb Stopper')
+icon_pic = pygame.image.load('assets/bomb/bomb0.png')
+pygame.display.set_icon(icon_pic)
 clock = pygame.time.Clock()
 
 gamerun = Gamerun(screen, screen_width, screen_height, clock)
@@ -233,3 +235,5 @@ def gameover():
         clock.tick(60)
 
 menu()
+
+#201 line
