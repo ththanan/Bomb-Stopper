@@ -209,8 +209,8 @@ def gameover():
 
         background_image = pygame.image.load('../Infographics/bg1.png')
         screen.blit(background_image, (0, 0))
-        draw_text('GAMEOVER', ('#F7EDDC'), 100, screen, (screen_width / 2 + 3, 140 + 3))
-        draw_text('GAMEOVER', ('#FF4133'), 100, screen, (screen_width / 2, 140))
+        draw_text('GAME OVER', ('#F7EDDC'), 100, screen, (screen_width / 2 + 3, 140 + 3))
+        draw_text('GAME OVER', ('#FF4133'), 100, screen, (screen_width / 2, 140))
 
         draw_text(f'score : {prev_player_score}', ('#996633'), 50, screen, (screen_width/2 +3, 195 +3))
         draw_text(f'score : {prev_player_score}', ('#F7EDDC'), 50, screen, (screen_width/2, 195))
