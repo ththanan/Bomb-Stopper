@@ -79,7 +79,7 @@ def menu():
         prev_player_score = 0
         new_player_score = 0
         background_image = pygame.image.load('../Infographics/bg1.png')
-        screen.blit(background_image, (0,0))
+        screen.blit(background_image, (0, 0))
 
         draw_text('BOMB STOPPER', ('#61452C'), 160, screen, (screen_width/2 +3, screen_height/2 - 100 +3))
         draw_text('BOMB STOPPER', ('#FFF4EB'), 160, screen, (screen_width/2, screen_height/2 - 100))
@@ -141,7 +141,7 @@ def game():
 def rank():
     while True:
         background_image = pygame.image.load('../Infographics/bg1.png')
-        screen.blit(background_image, (0,0))
+        screen.blit(background_image, (0, 0))
 
         draw_text('RANK', ('#61452C'), 100, screen, (screen_width/2 +3, 140 +3))
         draw_text('RANK', ('#FFF4EB'), 100, screen, (screen_width/2, 140))
@@ -235,5 +235,3 @@ def gameover():
         clock.tick(60)
 
 menu()
-
-#201 line
